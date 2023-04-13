@@ -73,6 +73,6 @@ if __name__ == "__main__":
 
     for block in blockchain.chain:
         print(f"Block {blockchain.chain.index(block)}: {block.hash}")
-This code example provides a minimal blockchain with a Merkle tree for securing transaction data within each block. The Merkle tree is generated from the transaction data, and the root of the tree is stored in the block. The blockchain is then mined with a simple proof-of-work algorithm.
-
-Keep in mind that this example is not suitable for real-world applications, as it lacks many essential features, such as a proper consensus algorithm, a network protocol, error handling, and performance optimizations.
+        
+# This code example provides a minimal blockchain with a Merkle tree for securing transaction data within each block. The Merkle tree is generated from the transaction data, and the root of the tree is stored in the block. The blockchain is then mined with a simple proof-of-work algorithm. 
+# Keep in mind that this example is not suitable for real-world applications, as it lacks many essential features, such as a proper consensus algorithm, a network protocol, error handling, and performance optimizations.
